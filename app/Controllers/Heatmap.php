@@ -83,6 +83,21 @@ class Heatmap extends BaseController
 		}
 		return $this->setResponseFormat('json')->respond($returnMe);
 	}
+	public function api_view()
+	{
+		$db = db_connect();
+		$query = $db->query('select * from heatmap');
+
+		$returnMe = [];
+
+
+		foreach ($query->getResult() as $row)
+		{
+
+		    $returnMe[intval($row->datetime)] =  "{type: '" . $row->type . "', comment: '" . $row->comment . "'}";
+		}
+		return $this->setResponseFormat('json')->respond($returnMe);
+	}
 	public function api_info()
 	{
 		$db = db_connect();
