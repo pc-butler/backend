@@ -7,6 +7,12 @@
 ### Get all entries
 - `/heatmap/api/view`
 
+***
+## Code
+Most of the meaningful code can be found in the following files:
+- `app/Config/Routes.php` Defines URL's for web and API traffic
+- `app/Controllers/Heatmap.php` What is executed on each page visit (Routes.php runs certain functions in Heatmap.php)
+- `app/Views/heatmap/index.php` HTML, CSS, and some PHP that acts as the page body. (Heatmap.php includes index.php as a template)
 
 ***
 
