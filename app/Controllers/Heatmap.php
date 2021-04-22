@@ -43,6 +43,31 @@ class Heatmap extends BaseController
 		//return view('heatmap');
 	}
 
+	public function new($varType, $varComment){
+		helper('url'); 
+		helper('date');
+
+		//$varType = $this->input->get('type');
+		//$varComment = $this->input->get('comment');
+
+
+		$db = db_connect();
+    	if (true){
+			
+			$builder = $db->table('heatmap');
+	        $sql_data = [
+	        	'datetime' => time(),
+	            'type' => $varType,
+			    'comment'  => $varComment,
+			];
+
+			$builder->insert($sql_data);
+
+	        //echo "It works!";
+	        echo 'Success. Added with type:' . $varType . ", and comment: " . $varComment;
+	    }
+	}
+
 	public function api()
 	{
 		$db = db_connect();
