@@ -1,6 +1,6 @@
 				<div class="row  border-bottom white-bg dashboard-header animated fadeIn">
                     <div class="col-md-3">
-                        <h2>Welcome Royce</h2>
+                        <h2>Welcome Mary Alice Reynolds</h2>
                         <small>You have 42 messages and 6 notifications.</small>
                         <ul class="list-group clear-list m-t">
                             <li class="list-group-item fist-item">
