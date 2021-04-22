@@ -10,7 +10,7 @@ class Heatmap extends BaseController
 	{
 		helper('url'); 
 		helper('date');
-		$data['title'] = "Royce's Home";
+		$data['title'] = "Heatmap";
     	$data['hideTitle'] = "true";
     	$db = db_connect();
     	if ($this->request->getMethod() === 'post' && $this->validate([
