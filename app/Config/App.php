@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'https://royce.degenme.com/';
+	public $baseURL = 'http://<ip>/';
 
 	/*
 	|--------------------------------------------------------------------------
