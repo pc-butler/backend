@@ -45,6 +45,9 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 6. `sudo nano /etc/apache2/mods-enabled/dir.conf`
 7. change the middle line to look like:  `DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm`
 8. `sudo systemctl restart apache2`
+9. Update App url `cd /var/www/php-calendar/app/Config` then `nano App.php` and update $baseURL to your IP.
+10. `sudo a2enmod rewrite` to enable an Apache mod rewrite which allows us to have fancy urls
+11. Step 8 again. `sudo systemctl restart apache2`
 
 
 
