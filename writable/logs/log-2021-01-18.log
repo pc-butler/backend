@@ -1,0 +1,46 @@
+CRITICAL - 2021-01-18 15:45:33 --> Undefined variable: hideTitle
+#0 /var/www/sub/royce/app/Views/templates/header.php(198): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Pages.php(26): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Pages->view()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-01-18 15:46:52 --> syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/sub/royce/app/Controllers/Pages.php(26): view()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Pages->view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-01-18 15:56:03 --> Invalid file: pages/templates/header.php
+#0 /var/www/sub/royce/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Startpage.php(8): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Startpage->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-18 15:56:04 --> Invalid file: pages/templates/header.php
+#0 /var/www/sub/royce/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Startpage.php(8): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Startpage->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-01-18 15:56:23 --> Undefined variable: title
+#0 /var/www/sub/royce/app/Views/templates/header.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Startpage.php(8): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Startpage->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,1169 @@
+CRITICAL - 2021-02-20 01:15:04 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/sub/royce/app/Views/heatmap/api.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(16): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:15:36 --> syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#5 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:15:57 --> Undefined property: App\Controllers\Heatmap::$load
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:18:50 --> Undefined property: App\Controllers\Heatmap::$load
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:20:23 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/sub/royce/app/Views/heatmap/api.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(17): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:20:27 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/sub/royce/app/Views/heatmap/api.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(17): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:20:40 --> Argument 2 passed to view() must be of the type array, object given, called in /var/www/sub/royce/app/Controllers/Heatmap.php on line 17
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(17): view()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:21:45 --> Undefined property: App\Controllers\Heatmap::$db
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:22:09 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/sub/royce/app/Views/heatmap/api.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(18): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:22:11 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/sub/royce/app/Views/heatmap/api.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(18): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:22:15 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/sub/royce/app/Views/heatmap/api.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(18): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:22:17 --> Undefined property: CodeIgniter\View\View::$db
+#0 /var/www/sub/royce/app/Views/heatmap/api.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(18): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:25:15 --> syntax error, unexpected '"<br>"' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#5 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:25:36 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:25:37 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:25:38 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:26:22 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(21): mysqli_num_rows()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 01:26:53 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:28:12 --> Undefined variable: query
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:28:14 --> Undefined variable: query
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 01:32:46 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:34:28 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 01:34:39 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:36:00 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:36:02 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:36:11 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:36:12 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:37:11 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:37:13 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:37:33 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:38:17 --> Call to undefined method App\Controllers\Heatmap::setResponseFormat()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 01:42:15 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#5 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:48:15 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#5 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:50:12 --> syntax error, unexpected ':', expecting ')'
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#5 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 01:54:40 --> trim() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(37): trim()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 01:56:38 --> array_values() expects parameter 1 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(39): array_values()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 02:14:27 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#5 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 02:16:06 --> A non-numeric value encountered
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 02:16:07 --> A non-numeric value encountered
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 02:35:52 --> Undefined property: App\Controllers\Heatmap::$load
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->new()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 02:37:59 --> Call to undefined function App\Controllers\form_open()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->new()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 02:43:28 --> Undefined variable: string
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->new()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 02:54:00 --> syntax error, unexpected '$routes' (T_VARIABLE)
+#0 /var/www/sub/royce/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt()
+#1 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#2 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-02-20 03:10:26 -->  route cannot be found while reverse-routing.
+#0 /var/www/sub/royce/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/sub/royce/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(45): redirect()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->new()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 12:46:08 --> Too few arguments to function CodeIgniter\Router\RouteCollection::match(), 2 passed in /var/www/sub/royce/app/Config/Routes.php on line 36 and at least 3 expected
+#0 /var/www/sub/royce/app/Config/Routes.php(36): CodeIgniter\Router\RouteCollection->match()
+#1 /var/www/sub/royce/system/CodeIgniter.php(780): require('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 12:46:54 --> Undefined variable: title
+#0 /var/www/sub/royce/app/Views/templates/header.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(35): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 12:48:20 --> Undefined variable: title
+#0 /var/www/sub/royce/app/Views/templates/header.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 12:48:41 --> Undefined variable: title
+#0 /var/www/sub/royce/app/Views/templates/header.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 12:51:01 --> Undefined variable: title
+#0 /var/www/sub/royce/app/Views/templates/header.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(33): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 13:06:01 --> Array to string conversion
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:06:09 --> Illegal offset type
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:06:11 --> Illegal offset type
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:06:21 --> Illegal offset type
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:06:24 --> Illegal offset type
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:06:35 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:07:52 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:16 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:17 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:19 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:20 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:20 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:21 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:21 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:21 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:21 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:08:21 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:09:13 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:09:14 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:09:30 --> Illegal offset type
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(100): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:12:37 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): localtime()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:14:41 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): date()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:15:18 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): date()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:16:03 --> Call to undefined function App\Controllers\str()
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:16:28 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): date()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:16:29 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): date()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:16:29 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): date()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:16:29 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(100): date()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 13:16:45 --> Undefined variable: dateMe
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:16:47 --> Undefined variable: dateMe
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(101): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:18:31 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:18:58 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:19:39 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:19:40 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:19:41 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:19:54 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:19:54 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:19:55 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:19:55 --> Class 'App\Controllers\DateTimeZone' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:22:13 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:24:07 --> Trait 'App\Controllers\CodeIgniter\I18n\Time' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 13:24:08 --> Trait 'App\Controllers\CodeIgniter\I18n\Time' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 13:29:32 --> DateTime::__construct(): Failed to parse time string (1613883677) at position 8 (7): Unexpected character
+#0 /var/www/sub/royce/system/I18n/Time.php(138): DateTime->__construct()
+#1 /var/www/sub/royce/system/I18n/Time.php(174): CodeIgniter\I18n\Time->__construct()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(100): CodeIgniter\I18n\Time::parse()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 13:33:03 --> Undefined variable: time
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(103): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:34:32 --> Class 'App\Controllers\DateTime' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->api_info()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 13:47:33 --> A non well formed numeric value encountered
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(34): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 13:48:13 --> A non well formed numeric value encountered
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(34): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 13:48:17 --> A non well formed numeric value encountered
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(34): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 13:48:22 --> A non well formed numeric value encountered
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(34): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 13:51:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'by id' at line 1
+#0 /var/www/sub/royce/system/Database/MySQLi/Connection.php(331): mysqli->query()
+#1 /var/www/sub/royce/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/sub/royce/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(30): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 13:55:27 --> Undefined property: App\Controllers\Heatmap::$form_validation
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:55:46 --> Undefined property: App\Controllers\Heatmap::$form_validation
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 13:55:54 -->  route cannot be found while reverse-routing.
+#0 /var/www/sub/royce/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/sub/royce/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(27): redirect()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 13:55:58 -->  route cannot be found while reverse-routing.
+#0 /var/www/sub/royce/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/sub/royce/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(27): redirect()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 13:56:45 -->  route cannot be found while reverse-routing.
+#0 /var/www/sub/royce/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/sub/royce/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(28): redirect()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 13:57:07 -->  route cannot be found while reverse-routing.
+#0 /var/www/sub/royce/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/sub/royce/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(28): redirect()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 14:02:02 -->  route cannot be found while reverse-routing.
+#0 /var/www/sub/royce/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/sub/royce/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(28): redirect()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 14:02:14 -->  route cannot be found while reverse-routing.
+#0 /var/www/sub/royce/system/HTTP/RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /var/www/sub/royce/system/Common.php(845): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(28): redirect()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 22:54:20 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 22:54:32 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Views/heatmap/index.php(130): date()
+#2 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#3 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#4 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#5 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#6 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 22:56:35 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Views/heatmap/index.php(130): date()
+#2 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#3 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#4 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#5 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#6 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 22:58:43 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 22:59:12 --> syntax error, unexpected 'use' (T_USE)
+#0 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 22:59:32 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:00:11 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:01:59 --> syntax error, unexpected 'use' (T_USE)
+#0 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 23:02:00 --> syntax error, unexpected 'use' (T_USE)
+#0 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 23:02:30 --> syntax error, unexpected 'use' (T_USE)
+#0 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 23:02:34 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:03:30 --> Undefined variable: time
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 23:03:42 --> Undefined variable: Time
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 23:03:43 --> Undefined variable: Time
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 23:03:43 --> Undefined variable: Time
+#0 /var/www/sub/royce/app/Controllers/Heatmap.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#2 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-20 23:04:56 --> Trait 'App\Controllers\CodeIgniter\I18n\Time' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 23:05:12 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(37): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:09:56 --> App\Controllers\Heatmap cannot use CodeIgniter\I18n\Time - it is not a trait
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 23:11:24 --> Trait 'system\I18n\Time' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 23:11:47 --> syntax error, unexpected 'use' (T_USE)
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#5 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 23:13:06 --> Trait 'App\Controllers\Time' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 23:13:35 --> Trait 'App\Controllers\ResponseTrait' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-02-20 23:14:02 --> Invalid file: my_app_index.php
+#0 /var/www/sub/royce/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(38): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:15:37 --> syntax error, unexpected 'use' (T_USE)
+#0 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#1 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(5): spl_autoload_call()
+#4 /var/www/sub/royce/system/Autoloader/Autoloader.php(365): require_once('/var/www/sub/ro...')
+#5 /var/www/sub/royce/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile()
+#6 /var/www/sub/royce/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#7 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#8 [internal function]: spl_autoload_call()
+#9 /var/www/sub/royce/system/CodeIgniter.php(869): class_exists()
+#10 /var/www/sub/royce/system/CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#11 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-02-20 23:15:55 --> Invalid file: my_app_index.php
+#0 /var/www/sub/royce/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(36): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:16:45 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(38): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:17:12 --> Class 'App\Controllers\Time' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 23:18:32 --> Class 'App\Controllers\Time' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 23:24:54 --> Class 'App\Controllers\Time' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 23:24:56 --> Class 'App\Controllers\Time' not found
+#0 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#1 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-02-20 23:25:11 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(40): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:25:29 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(40): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:25:30 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(40): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:26:07 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:26:08 --> Class 'Time' not found
+#0 /var/www/sub/royce/system/View/View.php(246): include()
+#1 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#2 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#3 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#4 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-02-20 23:27:59 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+#0 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#1 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#2 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#3 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-02-20 23:28:10 --> Undefined variable: localTime
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(139): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 23:28:46 --> DateTime::__construct(): Failed to parse time string (@2021-02-20 21:55:46) at position 8 (-): Double timezone specification
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(134): DateTime->__construct()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 23:29:49 --> DateTime::__construct(): Failed to parse time string (1613890303) at position 8 (0): Unexpected character
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(134): DateTime->__construct()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 23:29:50 --> DateTime::__construct(): Failed to parse time string (1613890303) at position 8 (0): Unexpected character
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(134): DateTime->__construct()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 23:29:59 --> DateTime::__construct(): Failed to parse time string (@2021-02-20 21:55:46) at position 8 (-): Double timezone specification
+#0 /var/www/sub/royce/app/Views/heatmap/index.php(134): DateTime->__construct()
+#1 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#2 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#3 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#4 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#5 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-02-20 23:31:09 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Views/heatmap/index.php(134): date()
+#2 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#3 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#4 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#5 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#6 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-20 23:31:11 --> A non well formed numeric value encountered
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/sub/royce/app/Views/heatmap/index.php(134): date()
+#2 /var/www/sub/royce/system/View/View.php(246): include('/var/www/sub/ro...')
+#3 /var/www/sub/royce/system/Common.php(1119): CodeIgniter\View\View->render()
+#4 /var/www/sub/royce/app/Controllers/Heatmap.php(41): view()
+#5 /var/www/sub/royce/system/CodeIgniter.php(918): App\Controllers\Heatmap->index()
+#6 /var/www/sub/royce/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/sub/royce/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/sub/royce/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
