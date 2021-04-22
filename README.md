@@ -1,13 +1,15 @@
 # php-calendar
 
-## Maybe it works
-
 ## API Documentation
 ### Create new entry
 - `/heatmap/api/<type>/<comment>`
 - Creates a new entry into the database. Uses current time (Los_Angeles)
 ### Get all entries
 - `/heatmap/api/view`
+
+
+***
+
 
 ### Create droplet and connect
 1. Create digitalocean droplet using password
