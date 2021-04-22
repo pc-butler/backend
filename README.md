@@ -56,6 +56,12 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 4. Paste in your MySql password and tab to the ok button and hit Enter.
 5. `sudo phpenmod mbstring`
 6. Restart apache2 again `sudo systemctl restart apache2`
+7. Go to your IP `http://<ip>/phpmyadmin` and login using `root` as the username and your MySql password.
+8. Create a new database. I'm going to call my `royce` ![image](https://user-images.githubusercontent.com/5004460/115659508-83612f80-a2ef-11eb-99da-6e66275a4427.png) ![image](https://user-images.githubusercontent.com/5004460/115659602-a4298500-a2ef-11eb-94ab-aae06c1efc74.png)
+9. Import the heatmap.sql file ![image](https://user-images.githubusercontent.com/5004460/115659652-bb687280-a2ef-11eb-9aba-3079ff2d7bfd.png)
+10. On the heatmap table, add a user account naming it whatever you want. ![image](https://user-images.githubusercontent.com/5004460/115659761-e3f06c80-a2ef-11eb-976a-c1bf4eea547d.png)
+11. Create user with a different secure password. change authentication method to native password like this: ![image](https://user-images.githubusercontent.com/5004460/115659951-29149e80-a2f0-11eb-83db-d4bc7b194cf2.png)
+12. 
 
 
 
