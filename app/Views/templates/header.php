@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Royce Whitaker | <?= esc($title); ?></title>
+    <title>PHP-calendar | <?= esc($title); ?></title>
 
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -48,25 +48,11 @@
                         </div>
                     </li>
                     <li class="active">
-                        <a href="/"><i class="fa fa-th-large"></i> <span class="nav-label">Dashboard</span></a>
+                        <a href="/"><i class="fa fa-th-large"></i> <span class="nav-label">Home</span></a>
                     </li>
                     <li>
-                        <a href="/start"><i class="fa fa-th-large"></i> <span class="nav-label">Startpage</span></a>
-                    </li>
-                    <li>
-                        <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">TODO list</span></a>
-                    </li>
                     <li>
                         <a href="/heatmap"><i class="fa fa-th-large"></i> <span class="nav-label">Heatmap</span></a>
-                    </li>
-                    <li>
-                        <a href="css_animation.html"><i class="fa fa-magic"></i> <span class="nav-label">CSS Animations </span><span class="label label-info pull-right">62</span></a>
-                    </li>
-                    <li class="landing_link">
-                        <a target="_blank" href="landing.html"><i class="fa fa-star"></i> <span class="nav-label">Landing Page</span> <span class="label label-warning pull-right">NEW</span></a>
-                    </li>
-                    <li class="special_link">
-                        <a href="package.html"><i class="fa fa-database"></i> <span class="nav-label">Package</span></a>
                     </li>
                 </ul>
 
@@ -86,7 +72,7 @@
         </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <span class="m-r-sm text-muted welcome-message">Welcome Royce Whitaker.</span>
+                    <span class="m-r-sm text-muted welcome-message">Welcome Mary Alice Reynolds.</span>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
