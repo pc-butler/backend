@@ -3,7 +3,7 @@
             <!--10GB of <strong>250GB</strong> Free. -->
         </div>
         <div>
-            <strong>Copyright</strong> Degenme © 2021
+            <strong>Copyright</strong> PHP-Calendar © 2021
         </div>
     </div>
 
@@ -59,7 +59,7 @@
                     showMethod: 'slideDown',
                     timeOut: 4000
                 };
-                toastr.success('Responsive Admin Theme', 'Welcome to INSPINIA');
+                toastr.success('eHealth Calendar', 'Welcome Mary Alice Reynolds');
 
             }, 1300);
 
