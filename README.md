@@ -10,7 +10,7 @@
 
 ***
 
-
+## Server Creation
 ### Create droplet and connect
 1. Create digitalocean droplet using password
 2. Open the web console & login. Then close window
