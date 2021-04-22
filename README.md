@@ -49,6 +49,8 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 10. `sudo a2enmod rewrite` to enable an Apache mod rewrite which allows us to have fancy urls
 11. Step 8 again. `sudo systemctl restart apache2`
 
+### Configure Database
+
 
 
 
