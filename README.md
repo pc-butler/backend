@@ -34,5 +34,20 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 
 ### PHP
 1. `sudo apt install php libapache2-mod-php php-mysql`
-2. 
+2. `sudo reboot`
+
+### Installing web app & API
+1. `cd /var/www/`
+2. Download the code `git clone https://github.com/lunarcontrol/php-calendar.git`
+3. `cd /etc/apache2/sites-available`
+4. `nano 000-default.conf`
+5. Change DocumentRoot to `/var/www/php-calendar`
+6. `sudo nano /etc/apache2/mods-enabled/dir.conf`
+7. change the middle line to look like:  `DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm`
+8. `sudo systemctl restart apache2`
+
+
+
+
+Done.
 
