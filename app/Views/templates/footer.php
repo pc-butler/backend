@@ -3,7 +3,7 @@
             <!--10GB of <strong>250GB</strong> Free. -->
         </div>
         <div>
-            <strong>Copyright</strong> PHP-Calendar © 2021
+            <strong>Copyright</strong> eHealth Calendar © 2021
         </div>
     </div>
 
