@@ -1,4 +1,4 @@
-# php-calendar
+# eHealth Calendar
 
 ## API Documentation
 ### Create new entry
