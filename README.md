@@ -61,7 +61,7 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 9. Import the heatmap.sql file ![image](https://user-images.githubusercontent.com/5004460/115659652-bb687280-a2ef-11eb-9aba-3079ff2d7bfd.png)
 10. On the heatmap table, add a user account naming it whatever you want. ![image](https://user-images.githubusercontent.com/5004460/115659761-e3f06c80-a2ef-11eb-976a-c1bf4eea547d.png)
 11. Create user with a different secure password. change authentication method to native password like this: ![image](https://user-images.githubusercontent.com/5004460/115659951-29149e80-a2f0-11eb-83db-d4bc7b194cf2.png)
-12. 
+12. Edit app/Config/Database.php to add your database info (`nano /var/www/php-calendar/app/Config/Database.php`): ![image](https://user-images.githubusercontent.com/5004460/115660199-8872ae80-a2f0-11eb-904c-b4134cc4ebe3.png)
 
 
 
