@@ -89,12 +89,18 @@ class Heatmap extends BaseController
 		$query = $db->query('select * from heatmap');
 
 		$returnMe = [];
-
-
+		$myObj = new \stdClass();
+		$count = 0;
 		foreach ($query->getResult() as $row)
 		{
 
-		    $returnMe[intval($row->datetime)] =  "{type: '" . $row->type . "', comment: '" . $row->comment . "'}";
+			$myObj->datetime = $row->datetime;
+			$myObj->type = $row->type;
+			$myObj->comment = $row->comment;
+
+		    $returnMe[$count] =  $myObj;
+		    
+		    $count = $count + 1;
 		}
 		return $this->setResponseFormat('json')->respond($returnMe);
 	}
