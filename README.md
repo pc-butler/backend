@@ -67,7 +67,7 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 ### Configure Database
 1. If you go to `http://<ip>/heatmap` you will see that there is a database error. let's set that up now.
 2. `sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl` install a visual database tool phpmyadmin https://www.phpmyadmin.net/
-3. Check the `apache2` option with the space bar. Tab to the ok button and hit Enter.
+3. Check the `apache2` option with the space bar. Tab to the ok button and hit Enter. ![image](https://user-images.githubusercontent.com/5004460/115807063-ba414f00-a39c-11eb-9b2e-e9ede2c29190.png)
 4. Paste in your MySql password and tab to the ok button and hit Enter.
 5. `sudo phpenmod mbstring`
 6. Restart apache2 again `sudo systemctl restart apache2`
