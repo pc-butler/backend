@@ -45,7 +45,7 @@ $routes->get('/dashboard', 'Dashboard::index',['filter' => 'auth']);
 
 
 
-$routes->get('(:any)', 'Pages::view/$1');
+//$routes->get('(:any)', 'Pages::view/$1');
 
 /**
  * --------------------------------------------------------------------
