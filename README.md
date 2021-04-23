@@ -85,6 +85,10 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 3. `chown www-data:www-data -R eHealth-calendar/`
 4. `ls -la` should now show ehealth-calendar with www-data as the owner and group
 
+### Fix php-intl not being installed
+1. `sudo apt install php-intl`
+2. `sudo systemctl restart apache2`
+
 
 Done.
 
