@@ -56,11 +56,11 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 2. Download the code `git clone https://github.com/lunarcontrol/eHealth-calendar.git`
 3. `cd /etc/apache2/sites-available`
 4. `nano 000-default.conf`
-5. Change DocumentRoot to `/var/www/php-calendar`
+5. Change DocumentRoot to `/var/www/eHealth-calendar`
 6. `sudo nano /etc/apache2/mods-enabled/dir.conf`
 7. change the middle line to look like:  `DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm`
 8. `sudo systemctl restart apache2`
-9. Update App url `cd /var/www/php-calendar/app/Config` then `nano App.php` and update $baseURL to your IP.
+9. Update App url `cd /var/www/eHealth-calendar/app/Config` then `nano App.php` and update $baseURL to your IP.
 10. `sudo a2enmod rewrite` to enable an Apache mod rewrite which allows us to have fancy urls
 11. Step 8 again. `sudo systemctl restart apache2`
 
@@ -76,7 +76,7 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 9. Import the heatmap.sql file ![image](https://user-images.githubusercontent.com/5004460/115659652-bb687280-a2ef-11eb-9aba-3079ff2d7bfd.png)
 10. On the heatmap table, add a user account naming it whatever you want. ![image](https://user-images.githubusercontent.com/5004460/115659761-e3f06c80-a2ef-11eb-976a-c1bf4eea547d.png)
 11. Create user with a different secure password. change authentication method to native password like this: ![image](https://user-images.githubusercontent.com/5004460/115659951-29149e80-a2f0-11eb-83db-d4bc7b194cf2.png)
-12. Edit app/Config/Database.php to add your database info (`nano /var/www/php-calendar/app/Config/Database.php`): ![image](https://user-images.githubusercontent.com/5004460/115660199-8872ae80-a2f0-11eb-904c-b4134cc4ebe3.png)
+12. Edit app/Config/Database.php to add your database info (`nano /var/www/eHealth-calendar/app/Config/Database.php`): ![image](https://user-images.githubusercontent.com/5004460/115660199-8872ae80-a2f0-11eb-904c-b4134cc4ebe3.png)
 
 
 
