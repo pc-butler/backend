@@ -75,10 +75,24 @@
                 
                 
                 <?php
+                    if($user_name){
+                        ?>
+                            <li>
+                                <a href="/login/logout">
+                                    <i class="fa fa-sign-out"></i> Log out
+                                </a>
+                            </li>
+                        <?php
+                    }
                     if(!$user_name){
-                        echo "<h1>NOT LOGGED IN</h1>";
-                    }                
-                
+                        ?>
+                            <li>
+                                <a href="/login">
+                                    <i class="fa fa-sign-in"></i> Log in
+                                </a>
+                            </li>
+                        <?php
+                    }
                 ?>
                 
                 <li>
