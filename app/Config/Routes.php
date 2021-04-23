@@ -31,9 +31,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
-$routes->get('/start', 'Startpage::index');
 
-$routes->match(['get', 'post'], '/heatmap', 'Heatmap::index');
+$routes->match(['get', 'post'], '/heatmap', 'Heatmap::index', ['filter' => 'auth']);
 $routes->get('/heatmap/api/new/(:segment)/(:segment)','Heatmap::new/$1/$2');
 // $routes->get('/heatmap/api/view','Heatmap::view');
 $routes->get('/heatmap/api.json', 'Heatmap::api');
