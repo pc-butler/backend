@@ -56,7 +56,7 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 2. Download the code `git clone https://github.com/lunarcontrol/eHealth-calendar.git`
 3. `cd /etc/apache2/sites-available`
 4. `nano 000-default.conf`
-5. Change DocumentRoot to `/var/www/eHealth-calendar/public`
+5. Change DocumentRoot to `/var/www/eHealth-calendar/public` and add `<Directory "/var/www/eHealth-calendar">                                                                                                                                                                                                                                                         AllowOverride All                                                                                                                                                                                                                                                               </Directory>` below it. ![image](https://user-images.githubusercontent.com/5004460/115809089-53be3000-a3a0-11eb-8465-d008d8d53b83.png)
 6. `sudo nano /etc/apache2/mods-enabled/dir.conf`
 7. change the middle line to look like:  `DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm`
 8. `sudo systemctl restart apache2`
