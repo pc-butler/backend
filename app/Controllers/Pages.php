@@ -6,6 +6,10 @@ class Pages extends Controller
 {
     public function index()
     {
+	    
+	$session = session();
+       	$data['user_name'] = $session->get('user_name');
+	    
     	$data['title'] = "Home";
     	$data['hideTitle'] = "true";
     	echo view('templates/header', $data);

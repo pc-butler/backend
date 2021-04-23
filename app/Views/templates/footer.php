@@ -59,7 +59,7 @@
                     showMethod: 'slideDown',
                     timeOut: 4000
                 };
-                toastr.success('eHealth Calendar', 'Welcome Mary Alice Reynolds');
+                toastr.success('eHealth Calendar', 'Welcome <?= esc($user_name); ?>');
 
             }, 1300);
 

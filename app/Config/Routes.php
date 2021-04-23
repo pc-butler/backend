@@ -20,7 +20,7 @@ $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(false);
+$routes->setAutoRoute(true);
 
 /**
  * --------------------------------------------------------------------
@@ -31,19 +31,20 @@ $routes->setAutoRoute(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pages::index');
-$routes->get('/start', 'Startpage::index');
 
-$routes->match(['get', 'post'], '/heatmap', 'Heatmap::index');
+$routes->match(['get', 'post'], '/heatmap', 'Heatmap::index', ['filter' => 'auth']);
 $routes->get('/heatmap/api/new/(:segment)/(:segment)','Heatmap::new/$1/$2');
 // $routes->get('/heatmap/api/view','Heatmap::view');
 $routes->get('/heatmap/api.json', 'Heatmap::api');
 $routes->get('/heatmap/api/view', 'Heatmap::api_view');
 $routes->get('/heatmap/info.json', 'Heatmap::api_info');
 
+$routes->get('/dashboard', 'Dashboard::index',['filter' => 'auth']);
 
 
 
-$routes->get('(:any)', 'Pages::view/$1');
+
+//$routes->get('(:any)', 'Pages::view/$1');
 
 /**
  * --------------------------------------------------------------------
