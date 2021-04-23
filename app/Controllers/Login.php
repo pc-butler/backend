@@ -8,7 +8,11 @@ class Login extends Controller
     public function index()
     {
         helper(['form']);
+        $data['title'] = "Login";
+        echo view('templates/header', $data);
         echo view('login');
+        echo view('templates/footer', $data);
+  
     } 
 
     public function auth()
