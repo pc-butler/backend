@@ -40,6 +40,8 @@ $routes->get('/heatmap/api.json', 'Heatmap::api');
 $routes->get('/heatmap/api/view', 'Heatmap::api_view');
 $routes->get('/heatmap/info.json', 'Heatmap::api_info');
 
+$routes->get('/dashboard', 'Dashboard::index',['filter' => 'auth']);
+
 
 
 
