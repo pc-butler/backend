@@ -53,7 +53,7 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 
 ### Installing web app & API
 1. `cd /var/www/`
-2. Download the code `git clone https://github.com/lunarcontrol/php-calendar.git`
+2. Download the code `git clone https://github.com/lunarcontrol/eHealth-calendar.git`
 3. `cd /etc/apache2/sites-available`
 4. `nano 000-default.conf`
 5. Change DocumentRoot to `/var/www/php-calendar`
