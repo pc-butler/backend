@@ -35,6 +35,14 @@ CREATE TABLE `heatmap` (
   `comment` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+CREATE TABLE users(
+    user_id INT PRIMARY KEY AUTO_INCREMENT,
+    user_name VARCHAR(100),
+    user_email VARCHAR(100),
+    user_password VARCHAR(200),
+    user_created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=INNODB;
+
 --
 -- Dumping data for table `heatmap`
 --
