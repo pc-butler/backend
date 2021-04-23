@@ -33,7 +33,7 @@
                             <img alt="image" class="img-circle" src="img/pfp2.png" style="max-width: 25%" />
                              </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Mary Alice Reynolds</strong>
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold"><?= esc($user_name); ?></strong>
                              </span> 
                                 <span class="text-muted text-xs block">Patient <b class="caret"></b></span> </span> </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
@@ -70,7 +70,7 @@
         </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <span class="m-r-sm text-muted welcome-message">Welcome <?= esc($title); ?>.</span>
+                    <span class="m-r-sm text-muted welcome-message">Welcome <?= esc($user_name); ?>.</span>
                 </li>
                 
                 
