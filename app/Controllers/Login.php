@@ -9,6 +9,7 @@ class Login extends Controller
     {
         helper(['form']);
         $data['title'] = "Login";
+        $data['user_name'] = "";
         echo view('templates/header', $data);
         echo view('login');
         echo view('templates/footer', $data);
