@@ -56,7 +56,7 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 2. Download the code `git clone https://github.com/lunarcontrol/eHealth-calendar.git`
 3. `cd /etc/apache2/sites-available`
 4. `nano 000-default.conf`
-5. Change DocumentRoot to `/var/www/eHealth-calendar`
+5. Change DocumentRoot to `/var/www/eHealth-calendar/public`
 6. `sudo nano /etc/apache2/mods-enabled/dir.conf`
 7. change the middle line to look like:  `DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm`
 8. `sudo systemctl restart apache2`
@@ -79,6 +79,11 @@ We are going to install LAMP (Linux, Apache, MySql, PHP)
 12. Create user with a different secure password. change authentication method to native password like this: ![image](https://user-images.githubusercontent.com/5004460/115659951-29149e80-a2f0-11eb-83db-d4bc7b194cf2.png)
 13. Edit app/Config/Database.php to add your database info (`nano /var/www/eHealth-calendar/app/Config/Database.php`): ![image](https://user-images.githubusercontent.com/5004460/115660199-8872ae80-a2f0-11eb-904c-b4134cc4ebe3.png)
 
+### Fix permissions
+1. `cd /var/www/`
+2. Do `ls -la` We need to change the ownership to the web server for eHealth-calendar
+3. `chown www-data:www-data -R eHealth-calendar/`
+4. `ls -la` should now show ehealth-calendar with www-data as the owner and group
 
 
 Done.
