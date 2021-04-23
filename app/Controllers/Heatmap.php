@@ -11,6 +11,11 @@ class Heatmap extends BaseController
 		helper('url'); 
 		helper('date');
 		$data['title'] = "Heatmap";
+		
+		 $session = session();
+        	$data['user_name'] = $session->get('user_name');
+		
+		
     	$data['hideTitle'] = "true";
     	$db = db_connect();
     	if ($this->request->getMethod() === 'post' && $this->validate([
