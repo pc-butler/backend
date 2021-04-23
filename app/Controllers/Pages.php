@@ -6,7 +6,7 @@ class Pages extends Controller
 {
     public function index()
     {
-    	$data['title'] = "Royce's Home";
+    	$data['title'] = "Home";
     	$data['hideTitle'] = "true";
     	echo view('templates/header', $data);
         echo view('pages/index', $data);
