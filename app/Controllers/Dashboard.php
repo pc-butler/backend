@@ -8,6 +8,10 @@ class Dashboard extends Controller
     {
         $session = session();
         //echo "Welcome back, ".$session->get('user_name');
+        
+        $data['title'] = "Dashboard";
+        $data['user_name'] = $session->get('user_name');
+        
         echo view('templates/header', $data);
         echo view('pages/index.php', $data);
         echo view('templates/footer', $data);
