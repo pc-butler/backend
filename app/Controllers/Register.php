@@ -10,7 +10,13 @@ class Register extends Controller
         //include helper form
         helper(['form']);
         $data = [];
+        $data['title'] = "Login";
+        $data['hideTitle'] = "true";
+        $data['user_name'] = "";
+        echo view('templates/header', $data);
         echo view('register', $data);
+        echo view('templates/footer', $data);
+
     }
 
     public function save()
