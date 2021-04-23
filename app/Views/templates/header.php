@@ -74,7 +74,12 @@
                 </li>
                 
                 
+                <?php
+                    if(!$user_name){
+                        echo "<h1>NOT LOGGED IN</h1>";
+                    }                
                 
+                ?>
                 
                 <li>
                     <a href="/login/logout">
