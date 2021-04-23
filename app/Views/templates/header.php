@@ -30,8 +30,11 @@
                 <ul class="nav metismenu" id="side-menu">
                     <li class="nav-header">
                         <div class="dropdown profile-element"> <span>
-                            
-                            <img alt="image" class="img-circle" src="https://www.ehra.org/sites/ehra.org/files/mary-alice-reynolds.png" style="max-width: 25%" />
+                            <?php
+                                if($user_name == "Mary Alice Reynolds"){ ?>
+                                    <img alt="image" class="img-circle" src="https://www.ehra.org/sites/ehra.org/files/mary-alice-reynolds.png" style="max-width: 25%" />
+                                <?php
+                                } ?>
                              </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold"><?= esc($user_name); ?></strong>
