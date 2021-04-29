@@ -29,8 +29,6 @@
 					range: 5,
 					domainDynamicDimension: false,
 					data: "/heatmap/api.json",
-					previousSelector: "#example-g-PreviousDomain-selector",
-					nextSelector: "#example-g-NextDomain-selector",
 					legend: [1, 2, 3, 4, 5, 6],
 					domainLabelFormat: function(date) {
 						moment.lang("en");
@@ -42,8 +40,8 @@
 			);
 		</script>
 		<br><br>
-		<button id="example-g-PreviousDomain-selector" style="margin-bottom: 10px;" class="btn">Back</button>
-		<button id="example-g-NextDomain-selector" style="margin-bottom: 10px;" class="btn">Front</button>
+		<button onclick="cal.previous();" style="margin-bottom: 10px;" class="btn">Back</button>
+		<button onclick="cal.next();" style="margin-bottom: 10px;" class="btn">Front</button>
 <br>
 <div class="ibox float-e-margins">
 	<div class="ibox-title">
