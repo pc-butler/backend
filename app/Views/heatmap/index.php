@@ -67,10 +67,7 @@
 	            <div class="modal-content">
 	                <div class="modal-body">
 	                    <div class="row">
-	                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">Sign in</h3>
-
-	                            <p>Sign in today for more expirience.</p>
-
+	                        <div class="col-sm-6 b-r"><h3 class="m-t-none m-b">New Event</h3>
 	                           <form action="/heatmap" method="post" role="form">
 	                           		<?= csrf_field() ?>
 	                                <div class="form-group"><label>Type</label> <input name="type" type="input" placeholder="Enter type" class="form-control"></div>
