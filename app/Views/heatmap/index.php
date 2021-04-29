@@ -3,6 +3,14 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.css" />
+
+<style>
+.graph-label {
+    font-weight: bold;
+    font-size: 18px;
+}
+</style>
+
 <div class="row  border-bottom white-bg dashboard-header animated fadeIn">
 	<div class="col-md-12">
 		<center><div id="cal-heatmap"></div></center>
