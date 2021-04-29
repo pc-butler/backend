@@ -5,9 +5,6 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/cal-heatmap/3.3.10/cal-heatmap.css" />
 <div class="row  border-bottom white-bg dashboard-header animated fadeIn">
 	<div class="col-md-12">
-		<button class="btn" id="animationDuration-previous">Previous</button>
-					<button class="btn" id="animationDuration-next">Next</button>
-		<br><br>
 		<center><div id="cal-heatmap"></div></center>
 		<script type="text/javascript">
 
@@ -36,6 +33,9 @@
 				}
 			);
 		</script>
+		<br><br>
+		<button class="btn" id="animationDuration-previous">Previous</button>
+					<button class="btn" id="animationDuration-next">Next</button>
 <br>
 <div class="ibox float-e-margins">
 	<div class="ibox-title">
