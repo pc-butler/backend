@@ -80,19 +80,13 @@
 	                                </div>
 	                            </form>
 	                        </div>
-	                        <div class="col-sm-6"><h4>Not a member?</h4>
-	                            <p>You can create an account:</p>
-	                            <p class="text-center">
-	                                <a href=""><i class="fa fa-sign-in big-icon"></i></a>
-	                            </p>
-	                    </div>
-	                </div>
-	            </div>
+	                   </div>
+	   		</div>
 	            </div>
 	        </div>
 	    </div>
 	</div>
-</div>
+    </div>
 
 
 
