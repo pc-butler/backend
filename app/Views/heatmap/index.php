@@ -34,8 +34,8 @@
 			);
 		</script>
 		<br><br>
-		<button id="example-g-PreviousDomain-selector" style="margin-bottom: 10px;" class="btn"><i class="icon icon-chevron-left"></i></button>
-		<button id="example-g-NextDomain-selector" style="margin-bottom: 10px;" class="btn"><i class="icon icon-chevron-right"></i></button>
+		<button id="example-g-PreviousDomain-selector" style="margin-bottom: 10px;" class="btn">Back</button>
+		<button id="example-g-NextDomain-selector" style="margin-bottom: 10px;" class="btn">Front</button>
 <br>
 <div class="ibox float-e-margins">
 	<div class="ibox-title">
