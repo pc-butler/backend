@@ -8,8 +8,7 @@
     </div>
 
     <!-- Mainly scripts -->
-    <script type="javascript" src="/js/jquery-3.1.1.min.js"></script>
-    <script type="javascript" src="/js/bootstrap.min.js"></script>
+    
     <script type="javascript" src="/js/plugins/metisMenu/jquery.metisMenu.js"></script>
     <script type="javascript" src="/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 
