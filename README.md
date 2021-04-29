@@ -9,7 +9,7 @@
 
 ***
 
-Security Issues:
+## Security Issues:
 - No brute-force rate limiting
 - SQL injection (no work done to secure)
 - Anyone can freely create an account
