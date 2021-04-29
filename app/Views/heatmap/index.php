@@ -14,15 +14,23 @@
 			cal.init(
 				{
 					domain: "month", 
+					subDomain: "x_day",
 					start: new Date(2021, 0, 1),
 					minDate: new Date(2020, 12),
+					cellSize: 20,
+					cellPadding: 5,
+					domainGutter: 20,
+					range: 5,
+					domainDynamicDimension: false,
 					data: "/heatmap/api.json",
 					previousSelector: "#animationDuration-previous",
 					nextSelector: "#animationDuration-next",
 					legend: [1, 2, 3, 4, 5, 6],
 					domainLabelFormat: function(date) {
-						return moment(date).format("MMM - YY"); // Use the moment library to format the Date
+						moment.lang("en");
+						return moment(date).format("MMMM").toUpperCase();
 					},
+					subDomainTextFormat: "%d",
 					datatype: "json"
 				}
 			);
