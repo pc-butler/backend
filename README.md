@@ -8,6 +8,16 @@
 - `/heatmap/api/view`
 
 ***
+
+Security Issues:
+- No brute-force rate limiting
+- SQL injection (no work done to secure)
+- Anyone can freely create an account
+- Heatmap data shared between all users (can see other users data)
+- API endpoint unsecured. No API keys or verification
+
+
+***
 ## Code
 Most of the meaningful code can be found in the following files:
 - `app/Config/Routes.php` Defines URL's for web and API traffic
