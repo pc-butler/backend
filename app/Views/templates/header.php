@@ -21,8 +21,8 @@
     <link href="/css/animate.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     
-    <script type="javascript" src="/js/jquery-3.1.1.min.js"></script>
-    <script type="javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 
 </head>
 
