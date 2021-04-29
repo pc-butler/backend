@@ -21,8 +21,8 @@
 					range: 5,
 					domainDynamicDimension: false,
 					data: "/heatmap/api.json",
-					previousSelector: "#animationDuration-previous",
-					nextSelector: "#animationDuration-next",
+					previousSelector: "#example-g-PreviousDomain-selector",
+					nextSelector: "#example-g-NextDomain-selector",
 					legend: [1, 2, 3, 4, 5, 6],
 					domainLabelFormat: function(date) {
 						moment.lang("en");
@@ -34,8 +34,8 @@
 			);
 		</script>
 		<br><br>
-		<button class="btn" id="animationDuration-previous">Previous</button>
-					<button class="btn" id="animationDuration-next">Next</button>
+		<button id="example-g-PreviousDomain-selector" style="margin-bottom: 10px;" class="btn"><i class="icon icon-chevron-left"></i></button>
+		<button id="example-g-NextDomain-selector" style="margin-bottom: 10px;" class="btn"><i class="icon icon-chevron-right"></i></button>
 <br>
 <div class="ibox float-e-margins">
 	<div class="ibox-title">
