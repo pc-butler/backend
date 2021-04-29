@@ -19,8 +19,8 @@
 					data: "/heatmap/api.json",
 					previousSelector: "#animationDuration-previous",
 					nextSelector: "#animationDuration-next",
-					range: 4,
-					legend: [0, 1, 2, 3, 4],
+					range: 3,
+					legend: [1, 2, 3, 4],
 					domainLabelFormat: function(date) {
 						return moment(date).format("MMM - YY"); // Use the moment library to format the Date
 					},
