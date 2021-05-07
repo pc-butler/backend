@@ -1,10 +1,15 @@
 from realhttp import *
 from time import *
 from networking import *
+from gpio import *
+
+# Start with switch turned OFF
 
 ip = localIP()
-
 url = "https://ehealth-calendar.tk/heatmap/api/view"
+last = 5
+#Used to track state to only update api once per switch being flipped
+
 
 def onHTTPDone(status, data):
 	print("status: " + str(status))
@@ -20,29 +25,34 @@ def pushDone(status, data):
 	print("status: " + str(status))
 	print("data: " + data)
 
+def checkState():
+	global last
+
+	pinMode(0, IN)
+	pinMode(1, OUT)
+
+	if last is 5:
+		last = digitalRead(0)
+
+	currentState = digitalRead(0)
+	if (currentState == last):
+		print ("State has not changed")
+	else:
+		print("State changed. Curently is {0} now it is {1}".format(last,currentState))
+	last = currentState
+
+
 def main():
 	print("IP: " + ip)
-	http = RealHTTPClient()
-	http.onDone(onHTTPDone)
-	http.get(url)
-	
-	print("Sending Update! ")
-	pushUpdate()
+	#print("Sending Update! ")
+	#pushUpdate()
 
 	# don't let it finish
 	while True:
-		sleep(3600)
+		print("Sleeping for 3 seconds")
+		sleep(3)
+		checkState()
 
 if __name__ == "__main__":
 	main()
 	
-	
-	# switchstate = digitalRead(0)
-	# sensordata = '<span>Please connect the included IoT health sensors as instructed by your docotor.</span><h4>Blood Pressure: <span style="color: red">145</span></h4><h4>Heart Rate: <span style="color: orange">72 bpm</span></h4>'
-	# if(switchstate == 0):
-	# 	switchstate = "OFF"
-	# 	response.send("Sensor Status: OFF")
-	# else:
-	# 	switchstate = "ON"
-	# 	response.send("Sensor Status: " + switchstate + "<br>" + sensordata)
-	# print("Request for /");
