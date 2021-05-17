@@ -34,6 +34,7 @@ $routes->get('/', 'Pages::index');
 
 $routes->match(['get', 'post'], '/heatmap', 'Heatmap::index', ['filter' => 'auth']);
 $routes->get('/heatmap/api/new/(:segment)/(:segment)','Heatmap::new/$1/$2');
+$routes->get('/heatmap/api/new-date/(:segment)/(:segment)/(:segment)','Heatmap::newDate/$1/$2/$3');
 // $routes->get('/heatmap/api/view','Heatmap::view');
 $routes->get('/heatmap/api.json', 'Heatmap::api');
 $routes->get('/heatmap/api/view', 'Heatmap::api_view');
