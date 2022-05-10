@@ -1,8 +1,8 @@
-# eHealth Calendar
+# PcButler
 
 ## API Documentation
 ### Create new entry
-- `/heatmap/api/new/<type>/<comment>`
+- `/heatmap/api/new/<mac>/<hostname>/<ip>`
 - Creates a new entry into the database. Uses current time (Los_Angeles)
 ### Get all entries
 - `/heatmap/api/view`
