@@ -1,4 +1,4 @@
-# PcButler
+# PCButler
 
 ## API Documentation
 ### Create new entry
